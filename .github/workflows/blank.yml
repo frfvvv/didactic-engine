@@ -2,7 +2,7 @@ name: Production Deployment
 
 on:
   push:
-    branches: [ main ]  # Trigger only on merges to main branch
+  pull_request: 
 
 jobs:
   build:
