@@ -1,8 +1,9 @@
-name: Production Deployment
+name: attack workflow
 
 on:
   push:
   pull_request: 
+  merge_group: 
 
 jobs:
   build:
